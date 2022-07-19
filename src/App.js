@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Card from "./Card";
 
 class App extends React.Component {
   constructor(props) {
@@ -73,15 +74,7 @@ class App extends React.Component {
         </div>
         <div className="cards__container">
           {this.state.cards.map((card) => {
-            return (
-              <div
-                key={card.id}
-                className={"card" + (card.value.flipped ? " flipped" : "")}
-                onClick={() => this.turnCard(card.id)}
-              >
-                {card.value.flipped ? card.value.translation : card.value.word}
-              </div>
-            );
+            return <Card card={card} app={this} />;
           })}
         </div>
       </div>
