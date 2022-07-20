@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/english-cards/static/css/main.d2b9d5c6.css",
+    "main.js": "/english-cards/static/js/main.4d089355.js",
+    "index.html": "/english-cards/index.html",
+    "main.d2b9d5c6.css.map": "/english-cards/static/css/main.d2b9d5c6.css.map",
+    "main.4d089355.js.map": "/english-cards/static/js/main.4d089355.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2b9d5c6.css",
+    "static/js/main.4d089355.js"
+  ]
+}
