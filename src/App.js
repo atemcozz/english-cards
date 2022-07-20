@@ -74,13 +74,7 @@ class App extends React.Component {
         </div>
         <div className="cards__container">
           {this.state.cards.map((card) => {
-            return (
-              <Card
-                key={card.id}
-                card={card}
-                onClick={this.turnCard.bind(this)}
-              />
-            );
+            return <Card card={card} app={this} />;
           })}
         </div>
       </div>
