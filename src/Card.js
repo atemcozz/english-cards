@@ -5,7 +5,7 @@ const Card = (props) => {
     <div
       key={props.card.id}
       className={"card" + (props.card.value.flipped ? " flipped" : "")}
-      onClick={() => props.onClick(props.card.id)}
+      onClick={() => props.app.turnCard(props.card.id)}
     >
       {props.card.value.flipped
         ? props.card.value.translation
